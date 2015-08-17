@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FunButton : UIView
+@interface FunViewSquare : UIView
+
+@property (readwrite) NSInteger xIndex;
+@property (readwrite) NSInteger yIndex;
 
 @end

@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UITapGestureRecognizer *butGestureRecognizer;
+}
+- (void)handleFunViewSquareTap:(UITapGestureRecognizer*)sender;
+- (UIColor *)randomColor;
 
 
 @end

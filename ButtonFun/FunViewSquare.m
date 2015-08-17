@@ -6,8 +6,16 @@
 //  Copyright (c) 2015 BaselNotBasilProductions. All rights reserved.
 //
 
-#import "FunButton.h"
+#import "FunViewSquare.h"
 
-@implementation FunButton
+@implementation FunViewSquare
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+    }
+    return self;
+}
 
 @end

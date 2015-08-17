@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19E97E8A802B0AC8B8AA59B8 /* libPods-ButtonFunTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53797E7F2D667FB93C2F9514 /* libPods-ButtonFunTests.a */; };
 		B905AF861B7D44B700FCD958 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B905AF851B7D44B700FCD958 /* main.m */; };
 		B905AF891B7D44B700FCD958 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B905AF881B7D44B700FCD958 /* AppDelegate.m */; };
 		B905AF8C1B7D44B700FCD958 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B905AF8B1B7D44B700FCD958 /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		B905AF911B7D44B700FCD958 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B905AF901B7D44B700FCD958 /* Images.xcassets */; };
 		B905AF941B7D44B700FCD958 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B905AF921B7D44B700FCD958 /* LaunchScreen.xib */; };
 		B905AFA01B7D44B700FCD958 /* ButtonFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B905AF9F1B7D44B700FCD958 /* ButtonFunTests.m */; };
+		B96704A01B7D6B21008CFAB9 /* FunViewSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = B967049F1B7D6B21008CFAB9 /* FunViewSquare.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		53797E7F2D667FB93C2F9514 /* libPods-ButtonFunTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ButtonFunTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBF8382F1E00B3AB78EF53B /* Pods-ButtonFunTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonFunTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonFunTests/Pods-ButtonFunTests.release.xcconfig"; sourceTree = "<group>"; };
 		B905AF801B7D44B700FCD958 /* ButtonFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B905AF841B7D44B700FCD958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B905AF851B7D44B700FCD958 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		B905AF991B7D44B700FCD958 /* ButtonFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B905AF9E1B7D44B700FCD958 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B905AF9F1B7D44B700FCD958 /* ButtonFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonFunTests.m; sourceTree = "<group>"; };
+		B967049E1B7D6B21008CFAB9 /* FunViewSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunViewSquare.h; sourceTree = "<group>"; };
+		B967049F1B7D6B21008CFAB9 /* FunViewSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunViewSquare.m; sourceTree = "<group>"; };
+		DC0D08BA921EE2AE0FB80A30 /* Pods-ButtonFunTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ButtonFunTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ButtonFunTests/Pods-ButtonFunTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,18 +61,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E97E8A802B0AC8B8AA59B8 /* libPods-ButtonFunTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0C14886F6AA5BC4B84D82F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC0D08BA921EE2AE0FB80A30 /* Pods-ButtonFunTests.debug.xcconfig */,
+				ABBF8382F1E00B3AB78EF53B /* Pods-ButtonFunTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B905AF771B7D44B700FCD958 = {
 			isa = PBXGroup;
 			children = (
 				B905AF821B7D44B700FCD958 /* ButtonFun */,
 				B905AF9C1B7D44B700FCD958 /* ButtonFunTests */,
 				B905AF811B7D44B700FCD958 /* Products */,
+				0F0C14886F6AA5BC4B84D82F /* Pods */,
+				EF4B6193AA392086CC9FC7FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,10 +100,9 @@
 		B905AF821B7D44B700FCD958 /* ButtonFun */ = {
 			isa = PBXGroup;
 			children = (
-				B905AF871B7D44B700FCD958 /* AppDelegate.h */,
-				B905AF881B7D44B700FCD958 /* AppDelegate.m */,
-				B905AF8A1B7D44B700FCD958 /* ViewController.h */,
-				B905AF8B1B7D44B700FCD958 /* ViewController.m */,
+				B90929C01B7DBE5200596AA9 /* Externalities */,
+				B90929BE1B7DBE3400596AA9 /* Controllers */,
+				B90929BF1B7DBE4300596AA9 /* Model/View */,
 				B905AF8D1B7D44B700FCD958 /* Main.storyboard */,
 				B905AF901B7D44B700FCD958 /* Images.xcassets */,
 				B905AF921B7D44B700FCD958 /* LaunchScreen.xib */,
@@ -119,6 +137,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B90929BE1B7DBE3400596AA9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B905AF8A1B7D44B700FCD958 /* ViewController.h */,
+				B905AF8B1B7D44B700FCD958 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B90929BF1B7DBE4300596AA9 /* Model/View */ = {
+			isa = PBXGroup;
+			children = (
+				B967049E1B7D6B21008CFAB9 /* FunViewSquare.h */,
+				B967049F1B7D6B21008CFAB9 /* FunViewSquare.m */,
+			);
+			name = Model/View;
+			sourceTree = "<group>";
+		};
+		B90929C01B7DBE5200596AA9 /* Externalities */ = {
+			isa = PBXGroup;
+			children = (
+				B905AF871B7D44B700FCD958 /* AppDelegate.h */,
+				B905AF881B7D44B700FCD958 /* AppDelegate.m */,
+			);
+			name = Externalities;
+			sourceTree = "<group>";
+		};
+		EF4B6193AA392086CC9FC7FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53797E7F2D667FB93C2F9514 /* libPods-ButtonFunTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B905AFA61B7D44B700FCD958 /* Build configuration list for PBXNativeTarget "ButtonFunTests" */;
 			buildPhases = (
+				868A1D9ECFF9FE45B63B74D8 /* Check Pods Manifest.lock */,
 				B905AF951B7D44B700FCD958 /* Sources */,
 				B905AF961B7D44B700FCD958 /* Frameworks */,
 				B905AF971B7D44B700FCD958 /* Resources */,
+				6669814F36EF4F4ED2600432 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +269,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6669814F36EF4F4ED2600432 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ButtonFunTests/Pods-ButtonFunTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		868A1D9ECFF9FE45B63B74D8 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B905AF7C1B7D44B700FCD958 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +310,7 @@
 				B905AF8C1B7D44B700FCD958 /* ViewController.m in Sources */,
 				B905AF891B7D44B700FCD958 /* AppDelegate.m in Sources */,
 				B905AF861B7D44B700FCD958 /* main.m in Sources */,
+				B96704A01B7D6B21008CFAB9 /* FunViewSquare.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +441,7 @@
 				INFOPLIST_FILE = ButtonFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -362,11 +452,13 @@
 				INFOPLIST_FILE = ButtonFun/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		B905AFA71B7D44B700FCD958 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC0D08BA921EE2AE0FB80A30 /* Pods-ButtonFunTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -386,6 +478,7 @@
 		};
 		B905AFA81B7D44B700FCD958 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBF8382F1E00B3AB78EF53B /* Pods-ButtonFunTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -418,6 +511,7 @@
 				B905AFA51B7D44B700FCD958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B905AFA61B7D44B700FCD958 /* Build configuration list for PBXNativeTarget "ButtonFunTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +520,7 @@
 				B905AFA81B7D44B700FCD958 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
